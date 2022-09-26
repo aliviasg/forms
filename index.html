@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="images/addperson.png" alt="person">
+            <h1>Cadastro de usuários</h1>
+        </div>
+    </header>
+    <section>
+        <div class="register-info">
+            <div class="form1">
+                <form>
+                    <b>Nome completo:</b> <br>
+                    <input type="text" name="nome" placeholder="Exemplo: José Silva"/><br><br>
+                    <b>CPF:</b> <br>
+                    <input type="number" name="CPF" placeholder="Exemplo: 111.111.111-11"/><br><br>
+                    <b>Data de Nascimento:</b><br>
+                    <input type="date" name="nascimento" /><br>
+                    <b>Gênero:</b><br>
+                    <input type="radio" name="genero" value="masculino"/>
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" name="genero" value="feminino"/>
+                    <label for="feminino">Feminino</label><br>
+                    <input type="radio" name="genero" value="outro"/>
+                    <label for="outro">Outro</label><br>
+                    <b>Profissão:</b> <br>
+                    <input type="text" name="profissão" placeholder="Exemplo: Professor"/><br>
+
+                </form>
+            </div>
+            <div class="form2">
+                <form>
+                    <b>Nome completo do(a) Genitor(a):</b> <br>
+                    <input type="text" name="nome genitor" placeholder="Exemplo: Maria Silva"/><br>
+                    <b>Estado (UF):</b> <br>
+                    <select>
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select> <br>
+                    <b>Telefone:</b><br>
+                    <input type="tel" name="telefone" placeholder="Exemplo: (011) 91111-1111"><br>
+                    <b>E-mail:</b> <br>
+                    <input type="email" name="email" placeholder="exemplo@mail.com"><br>
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
