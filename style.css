@@ -45,13 +45,34 @@ body {
     border-bottom-right-radius: 30px;
 }
 
-.form1 .form2 input {
-    margin-bottom: 15px;
+form input {
     border-radius: 10px;
     height: 25px;
 	border: none;
     width: 350px;
+}
+
+.form1 .form2 input {
+    margin-top: 10px;
+    margin-bottom: 15px;
     text-transform: uppercase;
+}
+
+.radio {
+    width: 20px;
+    margin-left: 15px;
+}
+
+.option-label {
+    margin-top: 5px;
+}
+
+.radio-div {
+    display: flex;
+}
+
+label {
+    display: inline-block;
 }
 
 /* Chrome e outros */
