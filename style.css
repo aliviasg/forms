@@ -2,7 +2,6 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
 body {
@@ -51,6 +50,16 @@ form input {
 	border: none;
     width: 350px;
     margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+form select {
+    border-radius: 10px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
 }
 
 .radio {
@@ -110,4 +119,10 @@ footer {
     justify-content: center;
     color: rgb(172, 169, 169);
     font-family: 'Courier New', Courier, monospace;
+}
+
+.icons img {
+    height: 25px;
+    margin-left: 5px;
+    margin-top: -7px;
 }
